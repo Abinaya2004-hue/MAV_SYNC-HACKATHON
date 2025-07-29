@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #1e293b;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Global container for desktop pages */
+.container {
+  width: 100%;
+  max-width: 1200px;  /* This makes it look like a proper website width */
+  margin: 0 auto;
+  padding: 40px 20px; /* Padding inside content area */
+  flex: 1;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

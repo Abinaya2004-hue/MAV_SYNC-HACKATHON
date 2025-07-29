@@ -1,0 +1,38 @@
+.oauth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.oauth-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #fff;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.oauth-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.oauth-btn:hover {
+  background: #f3f4f6;
+  transform: translateY(-2px);
+}
+
+.oauth-btn.google {
+  border-color: #e5e7eb;
+}
+
+.oauth-btn.apple {
+  border-color: #e5e7eb;
+}
