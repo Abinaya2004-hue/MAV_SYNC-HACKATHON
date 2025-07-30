@@ -6,6 +6,13 @@ const quizSchema = new mongoose.Schema({
   status: String,
   questionsCount: Number,
   tags: [String],
+  questions: [
+    {
+      question: String,
+      options: [String],
+      answer: Number
+    }
+  ]
 });
 
 module.exports = mongoose.model("Quiz", quizSchema);
